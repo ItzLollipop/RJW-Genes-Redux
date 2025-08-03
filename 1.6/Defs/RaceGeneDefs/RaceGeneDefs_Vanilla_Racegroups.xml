@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!--Canidae-->
+<!--Canidae-->
 	<RJW_BGS.RaceGeneDef Name = "Canine">
 		<defName>Canine</defName> 
 		<raceGroups>
@@ -13,7 +13,7 @@
 			</li>		
 		</genes> 
 	</RJW_BGS.RaceGeneDef>
-	<!--DomesticDog-->
+<!--DomesticDog-->
 	<RJW_BGS.RaceGeneDef Name = "DomesticDog">
 		<defName>DomesticDog</defName> 
 		<raceGroups>
@@ -26,7 +26,7 @@
 			</li>		
 		</genes> 
 	</RJW_BGS.RaceGeneDef>
-	<!--Vulpes-->
+<!--Vulpes-->
 	<RJW_BGS.RaceGeneDef Name = "Vulpine">
 		<defName>Vulpine</defName> 
 		<raceGroups>
@@ -39,8 +39,8 @@
 			</li>
 		</genes> 
 	</RJW_BGS.RaceGeneDef>
-	<!--Felidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Felidae-->
+	<RJW_BGS.RaceGeneDef Name = "Feline">
 		<defName>Feline</defName> 
 		<raceGroups>
 			<li>Feline_Group</li>
@@ -52,8 +52,8 @@
 			</li>			
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Equidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Equidae-->
+	<RJW_BGS.RaceGeneDef Name = "Equine">
 		<defName>Equine</defName> 
 		<raceGroups>
 			<li>Equine_Group</li>
@@ -65,8 +65,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Suidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Suidae-->
+	<RJW_BGS.RaceGeneDef Name = "Swine">
 		<defName>Swine</defName> 
 		<raceGroups>
 			<li>Swine_Group</li>
@@ -78,8 +78,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Murine-->
-	<RJW_BGS.RaceGeneDef>
+<!--Murine-->
+	<RJW_BGS.RaceGeneDef Name = "Murine">
 		<defName>Murine</defName> 
 		<raceGroups>
 			<li>Murine_Group</li>
@@ -91,8 +91,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Bovidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Bovidae-->
+	<RJW_BGS.RaceGeneDef Name = "Bovine">
 		<defName>Bovine</defName> 
 		<raceGroups>
 			<li>Bovine_Group</li>
@@ -104,8 +104,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Cervidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Cervidae-->
+	<RJW_BGS.RaceGeneDef Name = "Cervine">
 		<defName>Cervine</defName> 
 		<raceGroups>
 			<li>Cervine_Group</li>
@@ -117,8 +117,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Caprine-->
-	<RJW_BGS.RaceGeneDef>
+<!--Caprine-->
+	<RJW_BGS.RaceGeneDef Name = "Caprine">
 		<defName>Caprine</defName> 
 		<raceGroups>
 			<li>Caprine_Group</li>
@@ -130,8 +130,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Camelidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Camelidae-->
+	<RJW_BGS.RaceGeneDef Name = "Cameline">
 		<defName>Cameline</defName> 
 		<raceGroups>
 			<li>Cameline_Group</li>
@@ -143,8 +143,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Ursine-->
-	<RJW_BGS.RaceGeneDef>
+<!--Ursine-->
+	<RJW_BGS.RaceGeneDef Name = "Ursine">
 		<defName>Ursine</defName> 
 		<raceGroups>
 			<li>Ursine_Group</li>
@@ -156,8 +156,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Elephantidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Elephantidae-->
+	<RJW_BGS.RaceGeneDef Name = "Elephantine">
 		<defName>Elephantine</defName> 
 		<raceGroups>
 			<li>Elephantine_Group</li>
@@ -169,8 +169,8 @@
 			</li>	
 		</genes> 
 	</RJW_BGS.RaceGeneDef>
-	<!--Dragon-->
-	<RJW_BGS.RaceGeneDef>
+<!--Dragon-->
+	<RJW_BGS.RaceGeneDef Name = "Draconic">
 		<defName>Dragon</defName> 
 		<raceGroups>
 			<li>Dragon_Group</li>
@@ -182,8 +182,8 @@
 			</li>	
 		</genes> 
 	</RJW_BGS.RaceGeneDef>
-	<!--Procyonidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Procyonidae-->
+	<RJW_BGS.RaceGeneDef Name = "Procyonine">
 		<defName>Procyonine</defName> 
 		<raceGroups>
 			<li>Procyonine_Group</li>
@@ -195,8 +195,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Reptile-->
-	<RJW_BGS.RaceGeneDef>
+<!--Reptile-->
+	<RJW_BGS.RaceGeneDef Name = "Reptilian">
 		<defName>Reptile</defName> 
 		<raceGroups>
 			<li>Reptile_Group</li>
@@ -208,8 +208,21 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Amphibia-->
-	<RJW_BGS.RaceGeneDef>
+<!--Crocodilian-->
+	<RJW_BGS.RaceGeneDef Name = "Crocodilian">
+		<defName>Crocodilian</defName> 
+		<raceGroups>
+			<li>Crocodilian_Group</li>
+		</raceGroups>	
+		<genes>
+			<li>
+				<defName>rjw_genes_crocodilian_genitalia</defName>
+				<chance>0.4</chance>
+			</li>
+		</genes>
+	</RJW_BGS.RaceGeneDef>
+<!--Amphibia-->
+	<RJW_BGS.RaceGeneDef Name = "Amphibian">
 		<defName>Amphibian</defName> 
 		<raceGroups>
 			<li>Amphibian_Group</li>
@@ -221,8 +234,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Avian-->
-	<RJW_BGS.RaceGeneDef>
+<!--Avian-->
+	<RJW_BGS.RaceGeneDef Name = "Avian">
 		<defName>Avian</defName> 
 		<raceGroups>
 			<li>Avian_Group</li>
@@ -234,8 +247,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Primate-->
-	<RJW_BGS.RaceGeneDef>
+<!--Primate-->
+	<RJW_BGS.RaceGeneDef Name = "Simian">
 		<defName>Simian</defName> 
 		<raceGroups>
 			<li>Simian_Group</li>
@@ -247,8 +260,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Testudines-->
-	<RJW_BGS.RaceGeneDef>
+<!--Testudines-->
+	<RJW_BGS.RaceGeneDef Name = "Testudine">
 		<defName>Testudine</defName> 
 		<raceGroups>
 			<li>Testudine_Group</li>
@@ -260,8 +273,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Rhincerotidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Rhincerotidae-->
+	<RJW_BGS.RaceGeneDef Name = "Rhincerine">
 		<defName>Rhinocerine</defName> 
 		<raceGroups>
 			<li>Rhinocerine_Group</li>
@@ -273,8 +286,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Hippopotamidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Hippopotamidae-->
+	<RJW_BGS.RaceGeneDef Name = "Hippopotamine">
 		<defName>Hippopotamine</defName> 
 		<raceGroups>
 			<li>Hippopotamine_Group</li>
@@ -286,8 +299,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Xenarthra-->
-	<RJW_BGS.RaceGeneDef>
+<!--Xenarthra-->
+	<RJW_BGS.RaceGeneDef Name = "Xenarthrine">
 		<defName>Xenarthrine</defName> 
 		<raceGroups>
 			<li>Xenarthrine_Group</li>
@@ -299,8 +312,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Mustelidae-->
-	<RJW_BGS.RaceGeneDef>
+<!--Mustelidae-->
+	<RJW_BGS.RaceGeneDef Name = "Musteline">
 		<defName>Musteline</defName> 
 		<raceGroups>
 			<li>Musteline_Group</li>
@@ -312,8 +325,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Pinnipedia-->
-	<RJW_BGS.RaceGeneDef>
+<!--Pinnipedia-->
+	<RJW_BGS.RaceGeneDef Name = "Pinnipedine">
 		<defName>Pinnipedine</defName> 
 		<raceGroups>
 			<li>Pinnipedine_Group</li>
@@ -325,8 +338,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Crustacean-->
-	<RJW_BGS.RaceGeneDef>
+<!--Crustacean-->
+	<RJW_BGS.RaceGeneDef Name = "Crustacean">
 		<defName>Crustacean</defName> 
 		<raceGroups>
 			<li>Crustacean_Group</li>
@@ -338,8 +351,8 @@
 			</li>
 		</genes>
 	</RJW_BGS.RaceGeneDef>
-	<!--Insectoid-->
-	<RJW_BGS.RaceGeneDef>
+<!--Insectoid-->
+	<RJW_BGS.RaceGeneDef Name = "Insectoid">
 		<defName>Insect</defName> 
 		<raceGroups>
 			<li>Insect_Group</li>
