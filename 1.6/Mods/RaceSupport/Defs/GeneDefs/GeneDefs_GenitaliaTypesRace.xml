@@ -8,8 +8,9 @@
     <iconPath>Genes/Icons/Genitalia_screw_icon</iconPath>
     <modExtensions>
       <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>PigPenis</penis>
-        <vagina>PigVagina</vagina>
+        <penis>SwinePenis</penis>
+        <vagina>SwineVagina</vagina>
+        <vagina>SwineAnus</vagina>
       </li>
     </modExtensions>
     <displayOrderInCategory>807</displayOrderInCategory>

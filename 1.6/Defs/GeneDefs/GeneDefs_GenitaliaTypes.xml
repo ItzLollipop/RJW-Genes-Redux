@@ -10,7 +10,7 @@
     <randomChosen>true</randomChosen>
     <biostatCpx>0</biostatCpx>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Genes.GeneExtension">
+      <li>
         <backgroundPathEndogenes>Genes/Icons/RJW_Genes_Endogene_Background</backgroundPathEndogenes>
         <backgroundPathXenogenes>Genes/Icons/RJW_Genes_Xenogene_Background</backgroundPathXenogenes>
       </li>
@@ -24,10 +24,10 @@
     <description>Carriers of this gene develop equine genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_Equine</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>HorsePenis</penis>
-        <vagina>HorseVagina</vagina>
-        <anus>GenericAnus</anus>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>EquinePenis</penis>
+        <vagina>EquineVagina</vagina>
+        <anus>EquineAnus</anus>
       </li>
     </modExtensions>
     <displayOrderInCategory>802</displayOrderInCategory>
@@ -55,10 +55,40 @@
     <description>Carriers of this gene develop canine genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_Canine</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>CaninePenis</penis>
+        <vagina>CanineVagina</vagina>
+        <anus>CanineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>803</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_dog_genitalia</defName>
+    <label>dog genitalia</label>
+    <description>Carriers of this gene develop dog genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_Canine</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
         <penis>DogPenis</penis>
         <vagina>DogVagina</vagina>
-        <anus>GenericAnus</anus>
+        <anus>DogAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>803</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_fox_genitalia</defName>
+    <label>fox genitalia</label>
+    <description>Carriers of this gene develop fox genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_Canine</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>VulpinePenis</penis>
+        <vagina>VulpineVagina</vagina>
+        <anus>VulpineAnus</anus>
       </li>
     </modExtensions>
     <displayOrderInCategory>803</displayOrderInCategory>
@@ -70,10 +100,25 @@
     <description>Carriers of this gene develop feline genitalia.</description>
     <iconPath>Genes/Icons/RJW_Genes_Feline_Genitalia</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>CatPenis</penis>
-        <vagina>CatVagina</vagina>
-        <anus>GenericAnus</anus>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>FelinePenis</penis>
+        <vagina>FelineVagina</vagina>
+        <anus>FelineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>804</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_swine_genitalia</defName>
+    <label>feline genitalia</label>
+    <description>Carriers of this gene develop feline genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_screw_icon</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>SwinePenis</penis>
+        <vagina>SwineVagina</vagina>
+        <anus>SwineAnus</anus>
       </li>
     </modExtensions>
     <displayOrderInCategory>804</displayOrderInCategory>
@@ -103,10 +148,10 @@
     <description>Carriers of this gene develop dragon genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_Draconic</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
         <penis>DragonPenis</penis>
         <vagina>DragonVagina</vagina>
-        <anus>GenericAnus</anus>
+        <anus>DragonAnus</anus>
       </li>
       <li Class="RJW_Genes.QirkExtension">
         <Satisfiedquirk>ScaleLoverQuirk</Satisfiedquirk>
@@ -153,29 +198,15 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneGenitalTypeBase">
-    <defName>rjw_genes_crocodilian_genitalia</defName>
-    <label>crocodilian genitalia</label>
-    <description>Carriers of this gene have crocodilian genitalia.</description>
-    <iconPath>Genes/Icons/Genitalia_croc_icon</iconPath>
-    <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>CrocodilianPenis</penis>
-      </li>
-      <li Class="RJW_Genes.QirkExtension">
-        <Satisfiedquirk>ScaleLoverQuirk</Satisfiedquirk>
-      </li>
-    </modExtensions>
-    <displayOrderInCategory>807</displayOrderInCategory>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneGenitalTypeBase">
     <defName>rjw_genes_racoon_genitalia</defName>
     <label>racoon genitalia</label>
     <description>Carriers of this gene have racoon genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_racoon_icon</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>RaccoonPenis</penis>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>ProcyoninePenis</penis>
+        <vagina>ProcyonineVagina</vagina>
+        <anus>ProcyonineAnus</anus>
       </li>
     </modExtensions>
     <displayOrderInCategory>807</displayOrderInCategory>
@@ -187,8 +218,10 @@
     <description>Carriers of this gene have reptilian genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_hemi_icon</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
         <penis>HemiPenis</penis>
+        <vagina>CloacalHemiVagina</vagina>
+        <anus>CloacalAnus</anus>
       </li>
       <li Class="RJW_Genes.QirkExtension">
         <Satisfiedquirk>ScaleLoverQuirk</Satisfiedquirk>
@@ -198,14 +231,270 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneGenitalTypeBase">
-    <defName>rjw_genes_Needle_genitalia</defName>
-    <label>narrow genitalia</label>
-    <description>Carriers of this gene have very thin genitalia.</description>
+    <defName>rjw_genes_murine_genitalia</defName>
+    <label>murine genitalia</label>
+    <description>Carriers of this gene have murine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>MurinePenis</penis>
+        <vagina>MurineVagina</vagina>
+        <anus>MurineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_bovine_genitalia</defName>
+    <label>bovine genitalia</label>
+    <description>Carriers of this gene have bovine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>BovinePenis</penis>
+        <vagina>BovineVagina</vagina>
+        <anus>BovineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_Cervine_genitalia</defName>
+    <label>cervine genitalia</label>
+    <description>Carriers of this gene have cervine genitalia.</description>
     <iconPath>Genes/Icons/Genitalia_thin_icon</iconPath>
     <modExtensions>
-      <li Class="RJW_Genes.GenitaliaTypeExtension">
-        <penis>NeedlePenis</penis>
-        <vagina>NarrowVagina</vagina>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>CervinePenis</penis>
+        <vagina>CervineVagina</vagina>
+        <anus>CervineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_caprine_genitalia</defName>
+    <label>caprine genitalia</label>
+    <description>Carriers of this gene have caprine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>CaprinePenis</penis>
+        <vagina>CaprineVagina</vagina>
+        <anus>CaprineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_cameline_genitalia</defName>
+    <label>cameline genitalia</label>
+    <description>Carriers of this gene have cameline genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>CamelinePenis</penis>
+        <vagina>CamelineVagina</vagina>
+        <anus>CamelineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_ursine_genitalia</defName>
+    <label>ursine genitalia</label>
+    <description>Carriers of this gene have ursine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>UrsinePenis</penis>
+        <vagina>UrsineVagina</vagina>
+        <anus>UrsineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_elephantine_genitalia</defName>
+    <label>elephantine genitalia</label>
+    <description>Carriers of this gene have elephantine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>ElephantinePenis</penis>
+        <vagina>ElephantineVagina</vagina>
+        <anus>ElephantineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_cloacal_genitalia</defName>
+    <label>cloacal genitalia</label>
+    <description>Carriers of this gene have cloacal genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>CloacalPenis</penis>
+        <vagina>CloacalVagina</vagina>
+        <anus>CloacalAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_simian_genitalia</defName>
+    <label>simian genitalia</label>
+    <description>Carriers of this gene have simian genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>SimianPenis</penis>
+        <vagina>SimianVagina</vagina>
+        <anus>SimianAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_simian_genitalia</defName>
+    <label>simian genitalia</label>
+    <description>Carriers of this gene have simian genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>SimianPenis</penis>
+        <vagina>SimianVagina</vagina>
+        <anus>SimianAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_testudine_genitalia</defName>
+    <label>testudine genitalia</label>
+    <description>Carriers of this gene have testudine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>TestudinePenis</penis>
+        <vagina>CloacalVagina</vagina>
+        <anus>CloacalAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_rhinocerine_genitalia</defName>
+    <label>rhinocerine genitalia</label>
+    <description>Carriers of this gene have rhinocerine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>RhinocerinePenis</penis>
+        <vagina>RhinocerineVagina</vagina>
+        <anus>RhinocerineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_hippopotamine_genitalia</defName>
+    <label>rhinocerine genitalia</label>
+    <description>Carriers of this gene have rhinocerine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>HippopotaminePenis</penis>
+        <vagina>HippopotamineVagina</vagina>
+        <anus>HippopotamineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_xenarthrine_genitalia</defName>
+    <label>xenarthrine genitalia</label>
+    <description>Carriers of this gene have xenarthrine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>XenarthrinePenis</penis>
+        <vagina>XenarthrineVagina</vagina>
+        <anus>XenarthrineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_musteline_genitalia</defName>
+    <label>musteline genitalia</label>
+    <description>Carriers of this gene have musteline genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>MustelinePenis</penis>
+        <vagina>MustelineVagina</vagina>
+        <anus>MustelineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_pinnipedine_genitalia</defName>
+    <label>pinnipedine genitalia</label>
+    <description>Carriers of this gene have pinnipedine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>PinnipedinePenis</penis>
+        <vagina>PinnipedineVagina</vagina>
+        <anus>PinnipedineAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_crustacean_genitalia</defName>
+    <label>crustacean genitalia</label>
+    <description>Carriers of this gene have crustacean genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>Gonopods</penis>
+        <vagina>Gonopores</vagina>
+        <anus>CrustaceanAnus</anus>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>807</displayOrderInCategory>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_crustacean_genitalia</defName>
+    <label>crustacean genitalia</label>
+    <description>Carriers of this gene have crustacean genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_human</iconPath>
+    <modExtensions>
+      <li  MayRequire="ASMR.RJW.RaceSupport" Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>Gonopods</penis>
+        <vagina>Gonopores</vagina>
+        <anus>CrustaceanAnus</anus>
       </li>
     </modExtensions>
     <displayOrderInCategory>807</displayOrderInCategory>

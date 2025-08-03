@@ -22,7 +22,6 @@ namespace RJW_Genes
 		public static readonly GeneDef rjw_genes_feline_genitalia;
 		public static readonly GeneDef rjw_genes_canine_genitalia;
         public static readonly GeneDef rjw_genes_demonicT_genitalia;
-        public static readonly GeneDef rjw_genes_crocodilian_genitalia;
         public static readonly GeneDef rjw_genes_racoon_genitalia;
         public static readonly GeneDef rjw_genes_reptilian_genitalia;
         public static readonly GeneDef rjw_genes_human_genitalia;

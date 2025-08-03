@@ -36,7 +36,6 @@
 	<match Class="PatchOperationAdd">
 	<xpath>Defs/XenotypeDef[defName="OE_Protoceraton" or defName="OE_Styracodon" or defName="OE_Triceraton"]/genes</xpath>
 		<value>
-			<li>rjw_genes_crocodilian_genitalia</li>
 			<li>rjw_genes_big_male_genitalia</li>
 			<li>rjw_genes_loose_female_genitalia</li>
 			<li>rjw_genes_big_breasts</li>
