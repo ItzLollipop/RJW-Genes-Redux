@@ -184,7 +184,7 @@
 	</RJW_BGS.RaceGeneDef>
 	<!--Procyonidae-->
 	<RJW_BGS.RaceGeneDef>
-		<defName>Racoon</defName> 
+		<defName>Procyonine</defName> 
 		<raceGroups>
 			<li>Procyonine_Group</li>
 		</raceGroups>	
